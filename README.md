@@ -223,10 +223,10 @@ Automated secret scanning on every commit
 
 Test Execution Evidence
 
-Screenshot	                                                                                       Description
-https://github.com/feelinRain/reqres-api-testing/screenshots/python_tests_passed.png	             Python Automation: All 10 tests passing with 100% success rate
-https://github.com/feelinRain/reqres-api-testing/screenshots/postman_collection.png                Postman Collection: Complete test suite with environment variables
-https://github.com/feelinRain/reqres-api-testing/screenshots/project_structure.png	               Project Structure: Well-organized folder hierarchy following best practices
+Screenshot	                                                                                                 Description
+https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/python_tests_passed.png	             Python Automation: All 10 tests passing with 100% success rate
+https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/postman_collection.png                Postman Collection: Complete test suite with environment variables
+https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/project_structure.png	               Project Structure: Well-organized folder hierarchy following best practices
 
 
 ## 💡 Key Learnings
@@ -279,6 +279,7 @@ Problem-Solving Challenges Overcome
 - Solution: Comprehensive error handling and retry logic
 
 </div> 
+
 
 
 
