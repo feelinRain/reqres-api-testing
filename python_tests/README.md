@@ -77,7 +77,7 @@ TestReqResAPIPerformance	        Performance and validation tests	 2 tests
 
 
 Test Cases (10 Total)
-Functional Tests (TC-01 to TC-06)
+## Functional Tests (TC-01 to TC-06)
 1. TC-01: API Health Check - Verify API accessibility and responsiveness
 
 2. TC-02: Get Users List - Test pagination and data structure validation
@@ -90,12 +90,12 @@ Functional Tests (TC-01 to TC-06)
 
 6. TC-06: Delete User - Test user deletion with status validation
 
-Negative Tests (TC-07 to TC-08)
+## Negative Tests (TC-07 to TC-08)
 7. TC-07: Get Non-Existent User - Test 404 error handling for invalid IDs
 
 8. TC-08: Invalid Login Credentials - Validate authentication error responses
 
-Performance Tests (TC-09 to TC-10)
+## Performance Tests (TC-09 to TC-10)
 9. TC-09: Response Time Performance - Measure and validate response times
 
 10. TC-10: JSON Schema Validation - Comprehensive JSON structure validation
@@ -408,7 +408,7 @@ If you encounter issues with the test suite:
 4. Check API service availability
 
 
-Contributing
+## Contributing
 
 1. Fork the repository
 
@@ -424,7 +424,7 @@ Contributing
 
 <div align="center">
 
-✅ Ready for Integration
+## ✅ Ready for Integration
 This test suite is production-ready and can be integrated into:
 
 CI/CD pipelines (GitHub Actions, Jenkins, GitLab CI)
@@ -469,5 +469,6 @@ Part of the API Testing Portfolio Project
 Last Updated: December 2025
 
 </div> 
+
 
 
