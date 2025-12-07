@@ -225,11 +225,23 @@ Automated secret scanning on every commit
 
 ## 🖼️ Evidence & Screenshots
 
-Test Execution Evidence
-                                                                                               
-https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/python_tests_passed.png	             Python Automation: All 10 tests passing with 100% success rate
-https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/postman_collection.png                Postman Collection: Complete test suite with environment variables
-https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/project_structure.png	               Project Structure: Well-organized folder hierarchy following best practices
+### Test Execution Evidence
+
+<div align="center">
+
+#### Python Automation - 10/10 Tests Passing
+[![Python Tests](https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/python_tests_passed.png?raw=true)](https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/python_tests_passed.png)
+*All 10 API tests passing with 100% success rate*
+
+#### Postman Collection - Complete Test Suite
+[![Postman Collection](https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/postman_collection.png?raw=true)](https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/postman_collection.png)
+*Manual testing collection with environment variables*
+
+#### Project Structure - Professional Organization
+[![Project Structure](https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/project_structure.png?raw=true)](https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/project_structure.png)
+*Well-organized folder hierarchy following best practices*
+
+</div>
 
 
 ## 💡 Key Learnings
@@ -267,7 +279,7 @@ Technical Skills Demonstrated
 - Git security and .gitignore configuration
 
 
-Problem-Solving Challenges Overcome
+4. Problem-Solving Challenges Overcome
 
 - Challenge: Cloudflare protection blocking API requests
 
@@ -282,6 +294,7 @@ Problem-Solving Challenges Overcome
 - Solution: Comprehensive error handling and retry logic
 
 </div> 
+
 
 
 
