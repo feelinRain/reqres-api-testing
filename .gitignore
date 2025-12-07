@@ -1,41 +1,77 @@
-# API Keys and Secrets
-*.env
-!*.env.example 
+# ============================================
+# API TESTING PORTFOLIO - .gitignore
+# ============================================
+
+# ============ SECRETS & CREDENTIALS ============
+# Real environment files - NEVER COMMIT
+.env
 .env.local
-*.env.*
+.env.production
+.env.development
 secrets.json
 credentials.json
 access_tokens.json
 
-# Postman Environments
+# Postman environments with real keys
 *.postman_environment.json
 postman_environment*.json
-local_environment.json
 
-# Python
+# ============ TEMPLATES - ALLOW THESE ============
+# Template files - OK TO COMMIT
+!*.env.example
+!*.env.sample
+!*.env.template
+
+# ============ PYTHON ============
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
 .venv/
 venv/
 env/
-pip-log.txt
-pip-delete-this-directory.txt
 
-# Virtual Environment
+# Test reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ============ IDE & EDITORS ============
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# System
+# ============ SYSTEM FILES ============
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Test reports
-*.html
-*.xml
-.coverage
-htmlcov/
+# ============ LOGS & TEMP FILES ============
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ============ TEST REPORTS ============
+# Can be generated, so optional to commit
+reports/*.html
+reports/*.xml
