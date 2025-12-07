@@ -70,30 +70,35 @@ This portfolio project demonstrates comprehensive **API testing skills** using *
 - **Performance Testing**: Response time validation, thresholds
 
 ## 📁 Project Structure
-reqres-api-testing/ 
+
+
+<pre>
+reqres-api-testing/
 ├── .github/
-│ └── workflows/
-│ └── check-secrets.yml
+│   └── workflows/
+│       └── check-secrets.yml
 ├── documentation/
-│ ├── testing_strategy.md
-│ └── security_best_practices.md
+│   ├── testing_strategy.md
+│   └── security_best_practices.md
 ├── postman_collection/
-│ ├── API_Testing_Collection.json
-│ ├── Environment_Template.json
-│ ├── SETUP_INSTRUCTIONS.md
-│ └── collection_overview.md
+│   ├── API_Testing_Collection.json
+│   ├── Environment_Template.json
+│   ├── SETUP_INSTRUCTIONS.md
+│   └── collection_overview.md
 ├── python_tests/
-│ ├── test_reqres_api.py
-│ ├── requirements.txt
-│ ├── README.md
-│ └── .env.example
+│   ├── test_reqres_api.py
+│   ├── requirements.txt
+│   ├── README.md
+│   └── .env.example
 ├── screenshots/
-│ ├── python_tests_passed.png
-│ ├── postman_collection.png
-│ └── project_structure.png
+│   ├── python_tests_passed.png
+│   ├── postman_collection.png
+│   └── project_structure.png
 ├── .gitignore
 ├── .env.example
 └── README.md
+</pre>
+
 
 ## 🚀 Getting Started
 
@@ -274,6 +279,7 @@ Problem-Solving Challenges Overcome
 - Solution: Comprehensive error handling and retry logic
 
 </div> 
+
 
 
 
