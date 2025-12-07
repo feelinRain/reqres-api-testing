@@ -73,30 +73,30 @@ This portfolio project demonstrates comprehensive **API testing skills** using *
 
 
 <pre>
-reqres-api-testing/
+reqres-api-testing/                          
 ├── .github/
 │   └── workflows/
-│       └── check-secrets.yml
+│       └── check-secrets.yml              # Automated security scanning
 ├── documentation/
-│   ├── testing_strategy.md
-│   └── security_best_practices.md
+│   ├── testing_strategy.md                # Comprehensive testing approach
+│   └── security_best_practices.md         # Security guidelines
 ├── postman_collection/
-│   ├── API_Testing_Collection.json
-│   ├── Environment_Template.json
-│   ├── SETUP_INSTRUCTIONS.md
-│   └── collection_overview.md
+│   ├── API_Testing_Collection.json        # Complete Postman collection
+│   ├── Environment_Template.json          # Environment setup template
+│   ├── SETUP_INSTRUCTIONS.md              # Step-by-step Postman setup  
+│   └── collection_overview.md             # Collection documentation
 ├── python_tests/
-│   ├── test_reqres_api.py
-│   ├── requirements.txt
-│   ├── README.md
-│   └── .env.example
+│   ├── test_reqres_api.py                 # 10+ automated test cases
+│   ├── requirements.txt                   # 10+ automated test cases
+│   ├── README.md                          # Python tests documentation
+│   └── .env.example                       # Environment template
 ├── screenshots/
-│   ├── python_tests_passed.png
-│   ├── postman_collection.png
-│   └── project_structure.png
-├── .gitignore
-├── .env.example
-└── README.md
+│   ├── python_tests_passed.png            # Evidence of test execution
+│   ├── postman_collection.png             # Postman collection overview
+│   └── project_structure.png              # Project organization
+├── .gitignore                             # Security exclusions
+├── .env.example                           # Global environment template
+└── README.md                              # This file
 </pre>
 
 
@@ -223,10 +223,10 @@ Automated secret scanning on every commit
 
 Test Execution Evidence
 
-Screenshot	                                          Description
-https://screenshots/python_tests_all_passing.png	    Python Automation: All 10 tests passing with 100% success rate
-https://screenshots/postman_test_results.png          Postman Collection: Complete test suite with environment variables
-https://screenshots/project_structure.png	            Project Structure: Well-organized folder hierarchy following best practices
+Screenshot	                                                                                       Description
+https://github.com/feelinRain/reqres-api-testing/screenshots/python_tests_passed.png	             Python Automation: All 10 tests passing with 100% success rate
+https://github.com/feelinRain/reqres-api-testing/screenshots/postman_collection.png                Postman Collection: Complete test suite with environment variables
+https://github.com/feelinRain/reqres-api-testing/screenshots/project_structure.png	               Project Structure: Well-organized folder hierarchy following best practices
 
 
 ## 💡 Key Learnings
@@ -279,6 +279,7 @@ Problem-Solving Challenges Overcome
 - Solution: Comprehensive error handling and retry logic
 
 </div> 
+
 
 
 
