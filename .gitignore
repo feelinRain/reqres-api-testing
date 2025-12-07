@@ -1,0 +1,40 @@
+# API Keys and Secrets
+*.env
+.env.local
+*.env.*
+secrets.json
+credentials.json
+access_tokens.json
+
+# Postman Environments
+*.postman_environment.json
+postman_environment*.json
+local_environment.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Test reports
+*.html
+*.xml
+.coverage
+htmlcov/
