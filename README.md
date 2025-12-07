@@ -258,6 +258,7 @@ Technical Skills Demonstrated
 
 - Authentication and authorization testing
 
+
 2. Test Automation
 
 - Python test automation with pytest
@@ -267,6 +268,7 @@ Technical Skills Demonstrated
 - Environment variable management
 
 - Test reporting and metrics collection
+
 
 3. Security Awareness
 
@@ -294,6 +296,7 @@ Technical Skills Demonstrated
 - Solution: Comprehensive error handling and retry logic
 
 </div> 
+
 
 
 
