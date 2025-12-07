@@ -410,7 +410,7 @@ If you encounter issues with the test suite:
 
 Contributing
 
-1.Fork the repository
+1. Fork the repository
 
 2. Create a feature branch
 
@@ -469,4 +469,5 @@ Part of the API Testing Portfolio Project
 Last Updated: December 2025
 
 </div> 
+
 
