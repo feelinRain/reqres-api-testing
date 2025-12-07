@@ -149,25 +149,28 @@ pytest -m negative      # Negative tests only
 pytest -m performance   # Performance tests only
 ```
 
-##🧪 Testing Methodology
+## 🧪 Testing Methodology
 
-Test Coverage Matrix
+### **Test Coverage Matrix**
 
-Test Type	            Count	        Tools Used	       Coverage
-Functional Testing	  6 tests	      Postman, Python	   CRUD operations, data validation
-Negative Testing	    2 tests	      Python	           Error handling, invalid inputs
-Performance Testing	  2 tests	      Python	           Response time, JSON schema
-Security Testing	    Integrated	  GitHub Actions	   Secret scanning, best practices
+| Test Type | Count | Tools Used | Coverage |
+| :--- | :---: | :--- | :--- |
+| **Functional Testing** | 6 tests | Postman, Python | CRUD operations, data validation |
+| **Negative Testing** | 2 tests | Python | Error handling, invalid inputs |
+| **Performance Testing** | 2 tests | Python | Response time, JSON schema |
+| **Security Testing** | Integrated | GitHub Actions | Secret scanning, best practices |
 
-API Endpoints Tested
 
-#	 Method	  Endpoint	        Test Scenarios
-1	  GET	    /api/users	      Pagination, data structure, response validation
-2	  GET	    /api/users/{id}	  Specific user retrieval, field validation
-3   POST	  /api/users	      User creation, required fields, response validation
-4  	PUT	    /api/users/{id}	  User update, data persistence verification
-5	  DELETE	/api/users/{id}	  User deletion, status code validation
-6	  POST	  /api/login	      Authentication, error handling
+### **API Endpoints Tested**
+
+| # | Method | Endpoint | Test Scenarios |
+| :---: | :---: | :--- | :--- |
+| 1 | `GET` | `/api/users` | Pagination, data structure, response validation |
+| 2 | `GET` | `/api/users/{id}` | Specific user retrieval, field validation |
+| 3 | `POST` | `/api/users` | User creation, required fields, response validation |
+| 4 | `PUT` | `/api/users/{id}` | User update, data persistence verification |
+| 5 | `DELETE` | `/api/users/{id}` | User deletion, status code validation |
+| 6 | `POST` | `/api/login` | Authentication, error handling |
 
 
 ## 📊 Test Results
@@ -181,12 +184,13 @@ Failed: 0
 Success Rate: 100%
 Execution Time: 2.8 seconds
 
-Performance Metrics:
+### **Performance Metrics**
 
-Endpoint	      Avg Response Time	    Success Rate	Threshold
-GET /users	        245ms	                100%	    < 1000ms
-POST /users	        320ms	                100%	    < 1000ms
-GET /users/{id}	    198ms	                100%      < 1000ms
+| Endpoint | Avg Response Time | Success Rate | Threshold |
+| :--- | :---: | :---: | :---: |
+| `GET /users` | 245ms | 100% | < 1000ms |
+| `POST /users` | 320ms | 100% | < 1000ms |
+| `GET /users/{id}` | 198ms | 100% | < 1000ms |
 
 ## 🔐 Security Practices
 This project demonstrates enterprise-level security practices:
@@ -222,8 +226,7 @@ Automated secret scanning on every commit
 ## 🖼️ Evidence & Screenshots
 
 Test Execution Evidence
-
-Screenshot	                                                                                                 Description
+                                                                                               
 https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/python_tests_passed.png	             Python Automation: All 10 tests passing with 100% success rate
 https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/postman_collection.png                Postman Collection: Complete test suite with environment variables
 https://github.com/feelinRain/reqres-api-testing/blob/main/screenshots/project_structure.png	               Project Structure: Well-organized folder hierarchy following best practices
@@ -279,6 +282,7 @@ Problem-Solving Challenges Overcome
 - Solution: Comprehensive error handling and retry logic
 
 </div> 
+
 
 
 
