@@ -70,37 +70,30 @@ This portfolio project demonstrates comprehensive **API testing skills** using *
 - **Performance Testing**: Response time validation, thresholds
 
 ## 📁 Project Structure
-
-api-testing-portfolio/
-│
-├── 📁 .github/workflows/
-│ └── check-secrets.yml # Automated security scanning
-│
-├── 📁 documentation/
-│ ├── testing_strategy.md # Comprehensive testing approach
-│ └── security_best_practices.md # Security guidelines
-│
-├── 📁 postman_collection/
-│ ├── API_Testing_Collection.json # Complete Postman collection
-│ ├── Environment_Template.json # Environment setup template
-│ ├── SETUP_INSTRUCTIONS.md # Step-by-step Postman setup
-│ └── collection_overview.md # Collection documentation
-│
-├── 📁 python_tests/
-│ ├── test_reqres_api.py # 10+ automated test cases
-│ ├── requirements.txt # Python dependencies
-│ ├── README.md # Python tests documentation
-│ └── .env.example # Environment template
-│
-├── 📁 screenshots/
-│ ├── python_tests_passed.png # Evidence of test execution
-│ ├── postman_collection.png # Postman collection overview
-│ └── project_structure.png # Project organization
-│
-├── .gitignore # Security exclusions
-├── .env.example # Global environment template
-└── README.md # This file
-
+reqres-api-testing/ 
+├── .github/
+│ └── workflows/
+│ └── check-secrets.yml
+├── documentation/
+│ ├── testing_strategy.md
+│ └── security_best_practices.md
+├── postman_collection/
+│ ├── API_Testing_Collection.json
+│ ├── Environment_Template.json
+│ ├── SETUP_INSTRUCTIONS.md
+│ └── collection_overview.md
+├── python_tests/
+│ ├── test_reqres_api.py
+│ ├── requirements.txt
+│ ├── README.md
+│ └── .env.example
+├── screenshots/
+│ ├── python_tests_passed.png
+│ ├── postman_collection.png
+│ └── project_structure.png
+├── .gitignore
+├── .env.example
+└── README.md
 
 ## 🚀 Getting Started
 
@@ -281,6 +274,7 @@ Problem-Solving Challenges Overcome
 - Solution: Comprehensive error handling and retry logic
 
 </div> 
+
 
 
 
