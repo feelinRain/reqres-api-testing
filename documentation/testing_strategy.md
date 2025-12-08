@@ -11,7 +11,7 @@ Integration
       ▲
   Unit Tests
 
-  ```text
+
 
 ## Scope
 - **In scope**: API contract testing, status codes, response schemas, error handling
@@ -43,4 +43,5 @@ Integration
 - Critical paths tested first (authentication, main endpoints)
 - Regular test maintenance with API changes
 - Clear separation between test environments
-```
+
+
