@@ -246,9 +246,9 @@ Automated secret scanning on every commit
 
 ## 💡 Key Learnings
 
-Technical Skills Demonstrated
+## Technical Skills Demonstrated
 
-1. API Testing Mastery
+### 1. API Testing Mastery
 
 - REST API principles and HTTP methods
 
@@ -259,7 +259,7 @@ Technical Skills Demonstrated
 - Authentication and authorization testing
 
 
-2. Test Automation
+### 2. Test Automation
 
 - Python test automation with pytest
 
@@ -270,7 +270,7 @@ Technical Skills Demonstrated
 - Test reporting and metrics collection
 
 
-3. Security Awareness
+### 3. Security Awareness
 
 - Secret management best practices
 
@@ -281,7 +281,7 @@ Technical Skills Demonstrated
 - Git security and .gitignore configuration
 
 
-4. Problem-Solving Challenges Overcome
+### 4. Problem-Solving Challenges Overcome
 
 - Challenge: Cloudflare protection blocking API requests
 
@@ -296,6 +296,7 @@ Technical Skills Demonstrated
 - Solution: Comprehensive error handling and retry logic
 
 </div> 
+
 
 
 
