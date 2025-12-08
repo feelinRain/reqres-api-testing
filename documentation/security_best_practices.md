@@ -69,7 +69,7 @@ X-Content-Type-Options
 Strict-Transport-Security
 
 
-7. Code Security
+## 7. Code Security
 Keep dependencies updated (requirements.txt)
 
 Use security scanning tools (Bandit, Safety)
@@ -92,14 +92,12 @@ HTTPS enforced for production endpoints
 
 Dependencies scanned for vulnerabilities
 
-```
 
----
-
-**Key points included:**
+## Key points included:
 - Practical examples (python-dotenv)
 - Specific vulnerabilities to test
 - Production-ready practices
 - Actionable checklist
 - Relevant for portfolio demonstration
-```
+
+
