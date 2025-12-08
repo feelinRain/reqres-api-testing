@@ -34,14 +34,13 @@ Practical methodology for testing RESTful APIs using Python-based tools and fram
 - Data consistency across endpoints
 
 ## 🔧 Tech Stack
-```
-Tool	               Purpose
-Python + Requests	   HTTP client
-Pytest	               Test framework
-Pydantic	           Data validation
-Allure/HTML	           Reporting
-Postman/Newman	       Collection runner
-```
+| Tool | Purpose |
+|------|---------|
+| **Python + Requests** | HTTP client |
+| **Pytest** | Test framework |
+| **Pydantic** | Data validation |
+| **Allure/HTML** | Reporting |
+| **Postman/Newman** | Collection runner |
 
 ## 📝 Test Design Principles
 
@@ -106,3 +105,4 @@ API changes	                  Contract testing, versioning
 - Execution Time: Total suite runtime
 
 - Defect Density: Bugs per endpoint
+
