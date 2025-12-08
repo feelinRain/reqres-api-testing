@@ -88,14 +88,12 @@ Test Suite → CI/CD Pipeline → Reports
 ```
 
 ## 🧩 Common Solutions
-```
-
-Challenge	                  Solution
-Flaky tests	                  Retry mechanisms, better test data
-Test data management	      Factory pattern, data generation
-Environment differences	      Config files, environment variables
-API changes	                  Contract testing, versioning
-```
+| Challenge | Solution |
+|-----------|----------|
+| Flaky tests | Retry mechanisms, better test data |
+| Test data management | Factory pattern, data generation |
+| Environment differences | Config files, environment variables |
+| API changes | Contract testing, versioning |
 
 ## 📈 Key Metrics
 - Test Coverage: Endpoint coverage %
@@ -105,4 +103,5 @@ API changes	                  Contract testing, versioning
 - Execution Time: Total suite runtime
 
 - Defect Density: Bugs per endpoint
+
 
