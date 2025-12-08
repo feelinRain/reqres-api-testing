@@ -2,14 +2,13 @@
 
 ## Testing Pyramid
 ```
-E2E/UI
+   E2E/UI
       ▲
-Integration
+ Integration
       ▲
-
-API Tests (THIS PROJECT)
+ API Tests (THIS PROJECT)
       ▲
-Unit Tests
+ Unit Tests
 ```
 
 ## Scope
@@ -42,6 +41,7 @@ Unit Tests
 - Critical paths tested first (authentication, main endpoints)
 - Regular test maintenance with API changes
 - Clear separation between test environments
+
 
 
 
