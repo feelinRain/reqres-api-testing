@@ -1,7 +1,7 @@
 # Testing Strategy
 
 ## Testing Pyramid
-
+```
 E2E/UI
       ▲
 Integration
@@ -10,7 +10,7 @@ Integration
 API Tests (THIS PROJECT)
       ▲
 Unit Tests
-
+```
 
 ## Scope
 - **In scope**: API contract testing, status codes, response schemas, error handling
